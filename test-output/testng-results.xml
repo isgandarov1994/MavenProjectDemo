@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-16T20:18:37 MST" name="Smoke" finished-at="2025-07-16T20:19:07 MST" duration-ms="30362">
+    <groups>
+    </groups>
+    <test started-at="2025-07-16T20:18:37 MST" name="Test" finished-at="2025-07-16T20:19:07 MST" duration-ms="30362">
+      <class name="Project001.MavenProjectExample.SwitchWindows">
+        <test-method signature="switchWind()[pri:0, instance:Project001.MavenProjectExample.SwitchWindows@74235045]" started-at="2025-07-16T20:18:48 MST" name="switchWind" finished-at="2025-07-16T20:19:07 MST" duration-ms="19196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWind -->
+      </class> <!-- Project001.MavenProjectExample.SwitchWindows -->
+      <class name="Project001.MavenProjectExample.MouseOperations">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:Project001.MavenProjectExample.MouseOperations@397fbdb]" started-at="2025-07-16T20:18:35 MST" name="initializeBrowser" finished-at="2025-07-16T20:18:37 MST" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="dragAndDrop()[pri:0, instance:Project001.MavenProjectExample.MouseOperations@397fbdb]" started-at="2025-07-16T20:18:37 MST" name="dragAndDrop" finished-at="2025-07-16T20:18:40 MST" duration-ms="3802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:Project001.MavenProjectExample.MouseOperations@397fbdb]" started-at="2025-07-16T20:19:07 MST" name="tearDownBrowser" finished-at="2025-07-16T20:19:07 MST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- Project001.MavenProjectExample.MouseOperations -->
+      <class name="Project001.MavenProjectExample.DynamicDataHandle">
+        <test-method signature="DynamicWebPage()[pri:0, instance:Project001.MavenProjectExample.DynamicDataHandle@765d7657]" started-at="2025-07-16T20:18:40 MST" name="DynamicWebPage" finished-at="2025-07-16T20:18:48 MST" duration-ms="7338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DynamicWebPage -->
+      </class> <!-- Project001.MavenProjectExample.DynamicDataHandle -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke -->
+</testng-results>
