@@ -16,21 +16,21 @@
   </properties>
 
   <dependencies>
-	<dependency>
-	    <groupId>org.seleniumhq.selenium</groupId>
-	    <artifactId>selenium-java</artifactId>
-	    <version>4.33.0</version>
-	</dependency>
-	<dependency>
-	    <groupId>org.testng</groupId>
-	    <artifactId>testng</artifactId>
-	    <version>7.11.0</version>
-	    <scope>compile</scope>
-	</dependency>
-	<dependency>
-	    <groupId>org.apache.maven.shared</groupId>
-	    <artifactId>maven-dependency-tree</artifactId>
-	    <version>3.3.0</version>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.33.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.11.0</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.maven.shared</groupId>
+        <artifactId>maven-dependency-tree</artifactId>
+        <version>3.3.0</version>
     </dependency>
   </dependencies>
 
@@ -56,6 +56,7 @@
             <suiteXmlFiles>
               <suiteXmlFile>testng.xml</suiteXmlFile>
             </suiteXmlFiles>
+            <!-- The problematic argLine has been removed from here -->
           </configuration>
         </plugin>
         <plugin>
@@ -80,5 +81,12 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <!-- The maven-dependency-plugin has been removed from the <plugins> section below -->
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+        </plugin>
+    </plugins>
   </build>
 </project>

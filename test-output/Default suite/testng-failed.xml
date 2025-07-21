@@ -3,6 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="Project001.MavenProjectExample.SwitchWindows">
+        <methods>
+          <include name="switchWind"/>
+          <include name="tearDownBrowser"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- Project001.MavenProjectExample.SwitchWindows -->
+      <class name="Project001.MavenProjectExample.MouseOperations">
+        <methods>
+          <include name="tearDownBrowser"/>
+          <include name="initializeBrowser"/>
+          <include name="dragAndDrop"/>
+        </methods>
+      </class> <!-- Project001.MavenProjectExample.MouseOperations -->
       <class name="Project001.MavenProjectExample.DynamicDataHandle">
         <methods>
           <include name="tearDownBrowser"/>
