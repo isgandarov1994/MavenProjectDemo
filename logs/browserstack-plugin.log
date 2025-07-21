@@ -98,3 +98,21 @@
 00:03:17.951 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
 00:03:17.951 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 00:03:17.952 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:03:38.310 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:03:38.310 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:03:38.310 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:03:38.310 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:03:38.310 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:03:38.311 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:04:13.004 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:04:13.004 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:04:13.005 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:04:13.005 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:04:13.005 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:04:13.006 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:04:14.263 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:04:14.263 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:04:14.263 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:04:14.263 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:04:14.263 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:04:14.264 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
