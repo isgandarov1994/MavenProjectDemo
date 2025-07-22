@@ -4,77 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="073f2c79-dae6-4357-b8f6-ec229c6bb0e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="073f2c79-dae6-4357-b8f6-ec229c6bb0e5" name="Changes" comment="Cucumber Update">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CaptchaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DroppablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/W3SchoolsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/CaptchaSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DragAndDropSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/SwitchWindowsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/captcha.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dragAndDrop.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/switchWindows.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/browserstack-javaagent.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/browserstack-javaagent.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sdk-cli.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sdk-cli.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/MouseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/MouseOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/SwitchWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/SwitchWindows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Project001/MavenProjectExample/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Project001/MavenProjectExample/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project001/MavenProjectExample/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Project001/MavenProjectExample/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-07-20T23-55-14_590-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/Test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Smoke/Test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Project001.MavenProjectExample.DynamicDataHandle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Project001.MavenProjectExample.MouseOperations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Project001.MavenProjectExample.SwitchWindows.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Project001/MavenProjectExample/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Project001/MavenProjectExample/DynamicDataHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Project001/MavenProjectExample/MouseOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Project001/MavenProjectExample/SwitchWindows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project001/MavenProjectExample/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/MouseOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/SwitchWindows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project001/MavenProjectExample/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Smoke/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Smoke/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Smoke/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Smoke/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.DynamicDataHandle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.DynamicDataHandle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.MouseOperations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.MouseOperations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.SwitchWindows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.SwitchWindows.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "isgandarov1994"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;isgandarov1994&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/isgandarov1994/MavenProjectDemo.git",
-    "accountId": "9362940a-387c-4dc5-a5a7-2e1697842a6d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/isgandarov1994/MavenProjectDemo.git&quot;,
+    &quot;accountId&quot;: &quot;eb72675c-b6b6-45ff-a1e3-78c0931b34fb&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="30BxpaIYjgE4dfLvtpRNq0yvzPj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,11 +87,18 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/firdovsi/IdeaProjects/MavenProjectDemo/testng.xml.executor": "Run",
     "TestNG.Project001.MavenProjectExample.executor": "Run",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/firdovsi/IdeaProjects/MavenProjectDemo/testng.xml">
     <configuration name="Project001.MavenProjectExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenProjectExample" />
       <extension name="coverage">
@@ -109,8 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/firdovsi/IdeaProjects/MavenProjectDemo/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenProjectExample" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/firdovsi/IdeaProjects/MavenProjectDemo/testng.xml" />
         <item itemvalue="TestNG.Project001.MavenProjectExample" />
       </list>
     </recent_temporary>
@@ -124,5 +141,9 @@
       <updated>1753114950426</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cucumber Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cucumber Update" />
   </component>
 </project>

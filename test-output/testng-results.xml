@@ -6,32 +6,32 @@
     <groups>
     </groups>
     <test started-at="2025-07-20T23:02:50 MST" name="Default test" finished-at="2025-07-20T23:03:27 MST" duration-ms="37254">
-      <class name="Project001.MavenProjectExample.SwitchWindows">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:Project001.MavenProjectExample.SwitchWindows@515c6049]" started-at="2025-07-20T23:02:40 MST" name="initializeBrowser" finished-at="2025-07-20T23:02:50 MST" duration-ms="9507" status="PASS">
+      <class name="stepdefinitions.SwitchWindows">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:stepdefinitions.SwitchWindows@515c6049]" started-at="2025-07-20T23:02:40 MST" name="initializeBrowser" finished-at="2025-07-20T23:02:50 MST" duration-ms="9507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="switchWind()[pri:0, instance:Project001.MavenProjectExample.SwitchWindows@515c6049]" started-at="2025-07-20T23:02:50 MST" name="switchWind" finished-at="2025-07-20T23:03:12 MST" duration-ms="22390" status="PASS">
+        <test-method signature="switchWind()[pri:0, instance:stepdefinitions.SwitchWindows@515c6049]" started-at="2025-07-20T23:02:50 MST" name="switchWind" finished-at="2025-07-20T23:03:12 MST" duration-ms="22390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchWind -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:Project001.MavenProjectExample.SwitchWindows@515c6049]" started-at="2025-07-20T23:03:27 MST" name="tearDownBrowser" finished-at="2025-07-20T23:03:28 MST" duration-ms="885" status="PASS">
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:stepdefinitions.SwitchWindows@515c6049]" started-at="2025-07-20T23:03:27 MST" name="tearDownBrowser" finished-at="2025-07-20T23:03:28 MST" duration-ms="885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-      </class> <!-- Project001.MavenProjectExample.SwitchWindows -->
-      <class name="Project001.MavenProjectExample.MouseOperations">
-        <test-method signature="dragAndDrop()[pri:0, instance:Project001.MavenProjectExample.MouseOperations@618b19ad]" started-at="2025-07-20T23:03:12 MST" name="dragAndDrop" finished-at="2025-07-20T23:03:17 MST" duration-ms="4822" status="PASS">
+      </class> <!-- stepdefinitions.SwitchWindows -->
+      <class name="stepdefinitions.MouseOperations">
+        <test-method signature="dragAndDrop()[pri:0, instance:stepdefinitions.MouseOperations@618b19ad]" started-at="2025-07-20T23:03:12 MST" name="dragAndDrop" finished-at="2025-07-20T23:03:17 MST" duration-ms="4822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDrop -->
-      </class> <!-- Project001.MavenProjectExample.MouseOperations -->
-      <class name="Project001.MavenProjectExample.DynamicDataHandle">
-        <test-method signature="DynamicWebPage()[pri:0, instance:Project001.MavenProjectExample.DynamicDataHandle@2d3379b4]" started-at="2025-07-20T23:03:17 MST" name="DynamicWebPage" finished-at="2025-07-20T23:03:27 MST" duration-ms="10014" status="PASS">
+      </class> <!-- stepdefinitions.MouseOperations -->
+      <class name="stepdefinitions.DynamicDataHandle">
+        <test-method signature="DynamicWebPage()[pri:0, instance:stepdefinitions.DynamicDataHandle@2d3379b4]" started-at="2025-07-20T23:03:17 MST" name="DynamicWebPage" finished-at="2025-07-20T23:03:27 MST" duration-ms="10014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DynamicWebPage -->
-      </class> <!-- Project001.MavenProjectExample.DynamicDataHandle -->
+      </class> <!-- stepdefinitions.DynamicDataHandle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
