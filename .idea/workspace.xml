@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="073f2c79-dae6-4357-b8f6-ec229c6bb0e5" name="Changes" comment="Cucumber Update">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CaptchaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DroppablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/W3SchoolsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/CaptchaSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DragAndDropSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/SwitchWindowsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/captcha.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dragAndDrop.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/switchWindows.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/browserstack-javaagent.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/browserstack-javaagent.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sdk-cli.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sdk-cli.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project001/MavenProjectExample/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/MouseOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project001/MavenProjectExample/SwitchWindows.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project001/MavenProjectExample/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Smoke/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Smoke/Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Smoke/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Smoke/Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.DynamicDataHandle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.DynamicDataHandle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.MouseOperations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.MouseOperations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.SwitchWindows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Project001.MavenProjectExample.SwitchWindows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="073f2c79-dae6-4357-b8f6-ec229c6bb0e5" name="Changes" comment="Cucumber Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +32,9 @@
     &quot;accountId&quot;: &quot;eb72675c-b6b6-45ff-a1e3-78c0931b34fb&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -140,6 +108,23 @@
       <option name="presentableId" value="Default" />
       <updated>1753114950426</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cucumber Update">
+      <option name="closed" value="true" />
+      <created>1753166406305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753166406305</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cucumber Update">
+      <option name="closed" value="true" />
+      <created>1753166420130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753166420130</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
