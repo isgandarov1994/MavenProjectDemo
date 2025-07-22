@@ -1,0 +1,1402 @@
+2025-07-21T06:49:24.174Z CLI info [main]     Server listening on port: 5400
+2025-07-21T06:49:24.511Z CLI info     Config : {"userName":"firdovsisgandaro1","accessKey":"VnrqBwTUcc91QYyiii7r","projectName":"BrowserStack Sample","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"OS X","osVersion":"Big Sur","browserName":"Chrome","browserVersion":"latest"},{"os":"Windows","osVersion":10,"browserName":"Edge","browserVersion":"latest"},{"deviceName":"Samsung Galaxy S22 Ultra","browserName":"chrome","osVersion":12}],"parallelsPerPlatform":1,"source":"java:eclipse:v1.0.10","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2025-07-21T06:49:24.528Z CLI info [testhub:module]  [firdovsisgandaro1]   [c52bcc20-be36-42f9-9b7c-611f439780d4]  Starting testhub from 3778:0
+2025-07-21T06:49:24.529Z CLI info [testhub:module]  [firdovsisgandaro1]   [c52bcc20-be36-42f9-9b7c-611f439780d4]  startBuild: payload=
+
+{"started_at":"2025-07-21T06:49:24.529Z","host_info":{"hostname":"MacBook-Pro.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:53:26 PDT 2025; root:xnu-11417.121.6~2/RELEASE_X86_64","arch":"x64"},"ci_info":{"build_number":null},"version_control":{},"project_name":"BrowserStack Sample","name":"browserstack build","build_identifier":"#1","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.11.0","sdkVersion":"1.36.3","cliVersion":"1.5.8","language":"java","testFramework":{"name":"selenium","version":"4.33.0"},"source":"java:eclipse:v1.0.10"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-21T06:49:24.529Z CLI info  [firdovsisgandaro1]   [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-21T06:49:25.145Z CLI info [testhub:module]  [firdovsisgandaro1]   [c52bcc20-be36-42f9-9b7c-611f439780d4]  startBuild: response=m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg
+2025-07-21T06:49:25.147Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-21T06:49:31.567Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-21T06:49:31.848Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-21T06:49:31.848Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2025-07-21T06:49:31.848Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-21T06:49:56.685Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '17a63840-98ee-46a7-8dea-3f454cc13e19',
+    name: 'dragAndDrop',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.MouseOperations.dragAndDrop() throws java.lang.InterruptedException'
+    },
+    identifier: 'dragAndDrop',
+    scope: 'Smoke.stepdefinitions.MouseOperations',
+    scopes: [ 'Smoke', 'stepdefinitions.MouseOperations' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-21T06:49:56.671Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.687Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '59770e78-ab09-45e8-a376-f49ecc8c7e19',
+    name: 'dragAndDrop',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.MouseOperations.dragAndDrop() throws java.lang.InterruptedException'
+    },
+    identifier: 'dragAndDrop',
+    scope: 'Smoke.stepdefinitions.MouseOperations',
+    scopes: [ 'Smoke', 'stepdefinitions.MouseOperations' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-21T06:49:56.671Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-1' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.688Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'd012e202-b62c-422e-ac76-6012c96efd88',
+    name: 'dragAndDrop',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.MouseOperations.dragAndDrop() throws java.lang.InterruptedException'
+    },
+    identifier: 'dragAndDrop',
+    scope: 'Smoke.stepdefinitions.MouseOperations',
+    scopes: [ 'Smoke', 'stepdefinitions.MouseOperations' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-21T06:49:56.671Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-2' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.722Z CLI warn [observability:java:testng]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  TestRunFinished: event={"test_failure_type":"UnhandledError","test_rerun_name":"Test-2","test_result_at":"2025-07-20T23:49:56.695983","test_scope":"Smoke.stepdefinitions.MouseOperations","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-07-20T23:49:56.671262","platform_index":0,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java)","\tat stepdefinitions.MouseOperations.dragAndDrop(MouseOperations.java:14)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)","\tat org.testng.TestRunner.run(TestRunner.java:616)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1583)"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Smoke","stepdefinitions.MouseOperations"],"test_code":"public void stepdefinitions.MouseOperations.dragAndDrop() throws java.lang.InterruptedException","test_id":"Test-2@2","test_uuid":"d012e202-b62c-422e-ac76-6012c96efd88","test_ended_at":"2025-07-20T23:49:56.696887","automate_session_name":"Test-22","test_session_name":"stepdefinitions.MouseOperations-dragAndDrop","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","test_location":"src/test/java/Project001/MavenProjectExample/MouseOperations.java","test_hooks_started":{},"test_file_path":"src/test/java/Project001/MavenProjectExample/MouseOperations.java","test_result":"failed","test_hooks_finished":{},"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"dragAndDrop","logs":[]}
+2025-07-21T06:49:56.723Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'd012e202-b62c-422e-ac76-6012c96efd88',
+    name: 'dragAndDrop',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.MouseOperations.dragAndDrop() throws java.lang.InterruptedException'
+    },
+    identifier: 'dragAndDrop',
+    scope: 'Smoke.stepdefinitions.MouseOperations',
+    scopes: [ 'Smoke', 'stepdefinitions.MouseOperations' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 25,
+    started_at: '2025-07-21T06:49:56.671Z',
+    finished_at: '2025-07-21T06:49:56.696Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-2' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.724Z CLI warn [observability:java:testng]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  TestRunFinished: event={"test_failure_type":"UnhandledError","test_rerun_name":"Test-1","test_result_at":"2025-07-20T23:49:56.695704","test_scope":"Smoke.stepdefinitions.MouseOperations","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-07-20T23:49:56.671313","platform_index":0,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java)","\tat stepdefinitions.MouseOperations.dragAndDrop(MouseOperations.java:14)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)","\tat org.testng.TestRunner.run(TestRunner.java:616)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1583)"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Smoke","stepdefinitions.MouseOperations"],"test_code":"public void stepdefinitions.MouseOperations.dragAndDrop() throws java.lang.InterruptedException","test_id":"Test-1@1","test_uuid":"59770e78-ab09-45e8-a376-f49ecc8c7e19","test_ended_at":"2025-07-20T23:49:56.696930","automate_session_name":"Test-11","test_session_name":"stepdefinitions.MouseOperations-dragAndDrop","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","test_location":"src/test/java/Project001/MavenProjectExample/MouseOperations.java","test_hooks_started":{},"test_file_path":"src/test/java/Project001/MavenProjectExample/MouseOperations.java","test_result":"failed","test_hooks_finished":{},"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"dragAndDrop","logs":[]}
+2025-07-21T06:49:56.725Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '59770e78-ab09-45e8-a376-f49ecc8c7e19',
+    name: 'dragAndDrop',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.MouseOperations.dragAndDrop() throws java.lang.InterruptedException'
+    },
+    identifier: 'dragAndDrop',
+    scope: 'Smoke.stepdefinitions.MouseOperations',
+    scopes: [ 'Smoke', 'stepdefinitions.MouseOperations' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 25,
+    started_at: '2025-07-21T06:49:56.671Z',
+    finished_at: '2025-07-21T06:49:56.696Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-1' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.726Z CLI warn [observability:java:testng]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  TestRunFinished: event={"test_failure_type":"UnhandledError","test_rerun_name":"Test-0","test_result_at":"2025-07-20T23:49:56.695905","test_scope":"Smoke.stepdefinitions.MouseOperations","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-07-20T23:49:56.671253","platform_index":0,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java)","\tat stepdefinitions.MouseOperations.dragAndDrop(MouseOperations.java:14)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)","\tat org.testng.TestRunner.run(TestRunner.java:616)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1583)"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Smoke","stepdefinitions.MouseOperations"],"test_code":"public void stepdefinitions.MouseOperations.dragAndDrop() throws java.lang.InterruptedException","test_id":"Test-0@0","test_uuid":"17a63840-98ee-46a7-8dea-3f454cc13e19","test_ended_at":"2025-07-20T23:49:56.696851","automate_session_name":"Test-00","test_session_name":"stepdefinitions.MouseOperations-dragAndDrop","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","test_location":"src/test/java/Project001/MavenProjectExample/MouseOperations.java","test_hooks_started":{},"test_file_path":"src/test/java/Project001/MavenProjectExample/MouseOperations.java","test_result":"failed","test_hooks_finished":{},"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"dragAndDrop","logs":[]}
+2025-07-21T06:49:56.727Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '17a63840-98ee-46a7-8dea-3f454cc13e19',
+    name: 'dragAndDrop',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.MouseOperations.dragAndDrop() throws java.lang.InterruptedException'
+    },
+    identifier: 'dragAndDrop',
+    scope: 'Smoke.stepdefinitions.MouseOperations',
+    scopes: [ 'Smoke', 'stepdefinitions.MouseOperations' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 25,
+    started_at: '2025-07-21T06:49:56.671Z',
+    finished_at: '2025-07-21T06:49:56.696Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.746Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '3abf9150-4edc-473f-a102-511ea7a4108c',
+    name: 'DynamicWebPage',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.DynamicDataHandle.DynamicWebPage() throws java.lang.InterruptedException'
+    },
+    identifier: 'DynamicWebPage',
+    scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+    scopes: [ 'Smoke', 'stepdefinitions.DynamicDataHandle' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-21T06:49:56.742Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-2' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.747Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '5f3ccc64-f916-41ae-b0cb-7fd45ef210a2',
+    name: 'DynamicWebPage',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.DynamicDataHandle.DynamicWebPage() throws java.lang.InterruptedException'
+    },
+    identifier: 'DynamicWebPage',
+    scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+    scopes: [ 'Smoke', 'stepdefinitions.DynamicDataHandle' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-21T06:49:56.742Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-1' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.748Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '03656008-ea1d-41c3-b81e-5aae32a19ee7',
+    name: 'DynamicWebPage',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.DynamicDataHandle.DynamicWebPage() throws java.lang.InterruptedException'
+    },
+    identifier: 'DynamicWebPage',
+    scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+    scopes: [ 'Smoke', 'stepdefinitions.DynamicDataHandle' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-21T06:49:56.742Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.761Z CLI warn [observability:java:testng]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  TestRunFinished: event={"test_failure_type":"UnhandledError","test_rerun_name":"Test-0","test_result_at":"2025-07-20T23:49:56.753569","test_scope":"Smoke.stepdefinitions.DynamicDataHandle","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-07-20T23:49:56.742646","platform_index":0,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java)","\tat stepdefinitions.DynamicDataHandle.DynamicWebPage(DynamicDataHandle.java:15)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)","\tat org.testng.TestRunner.run(TestRunner.java:616)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1583)"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Smoke","stepdefinitions.DynamicDataHandle"],"test_code":"public void stepdefinitions.DynamicDataHandle.DynamicWebPage() throws java.lang.InterruptedException","test_id":"Test-0@0","test_uuid":"03656008-ea1d-41c3-b81e-5aae32a19ee7","test_ended_at":"2025-07-20T23:49:56.757433","automate_session_name":"Test-00","test_session_name":"stepdefinitions.DynamicDataHandle-DynamicWebPage","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","test_location":"src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java","test_hooks_started":{},"test_file_path":"src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java","test_result":"failed","test_hooks_finished":{},"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"DynamicWebPage","logs":[]}
+2025-07-21T06:49:56.762Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '03656008-ea1d-41c3-b81e-5aae32a19ee7',
+    name: 'DynamicWebPage',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.DynamicDataHandle.DynamicWebPage() throws java.lang.InterruptedException'
+    },
+    identifier: 'DynamicWebPage',
+    scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+    scopes: [ 'Smoke', 'stepdefinitions.DynamicDataHandle' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 15,
+    started_at: '2025-07-21T06:49:56.742Z',
+    finished_at: '2025-07-21T06:49:56.757Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.762Z CLI warn [observability:java:testng]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  TestRunFinished: event={"test_failure_type":"UnhandledError","test_rerun_name":"Test-2","test_result_at":"2025-07-20T23:49:56.753681","test_scope":"Smoke.stepdefinitions.DynamicDataHandle","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-07-20T23:49:56.742566","platform_index":2,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java)","\tat stepdefinitions.DynamicDataHandle.DynamicWebPage(DynamicDataHandle.java:15)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)","\tat org.testng.TestRunner.run(TestRunner.java:616)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1583)"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Smoke","stepdefinitions.DynamicDataHandle"],"test_code":"public void stepdefinitions.DynamicDataHandle.DynamicWebPage() throws java.lang.InterruptedException","test_id":"Test-2@2","test_uuid":"3abf9150-4edc-473f-a102-511ea7a4108c","test_ended_at":"2025-07-20T23:49:56.757654","automate_session_name":"Test-22","test_session_name":"stepdefinitions.DynamicDataHandle-DynamicWebPage","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","test_location":"src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java","test_hooks_started":{},"test_file_path":"src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java","test_result":"failed","test_hooks_finished":{},"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"DynamicWebPage","logs":[]}
+2025-07-21T06:49:56.763Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '3abf9150-4edc-473f-a102-511ea7a4108c',
+    name: 'DynamicWebPage',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.DynamicDataHandle.DynamicWebPage() throws java.lang.InterruptedException'
+    },
+    identifier: 'DynamicWebPage',
+    scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+    scopes: [ 'Smoke', 'stepdefinitions.DynamicDataHandle' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 15,
+    started_at: '2025-07-21T06:49:56.742Z',
+    finished_at: '2025-07-21T06:49:56.757Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-2' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.765Z CLI warn [observability:java:testng]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  TestRunFinished: event={"test_failure_type":"UnhandledError","test_rerun_name":"Test-1","test_result_at":"2025-07-20T23:49:56.753450","test_scope":"Smoke.stepdefinitions.DynamicDataHandle","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-07-20T23:49:56.742558","platform_index":1,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java)","\tat stepdefinitions.DynamicDataHandle.DynamicWebPage(DynamicDataHandle.java:15)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)","\tat org.testng.TestRunner.run(TestRunner.java:616)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1583)"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Smoke","stepdefinitions.DynamicDataHandle"],"test_code":"public void stepdefinitions.DynamicDataHandle.DynamicWebPage() throws java.lang.InterruptedException","test_id":"Test-1@1","test_uuid":"5f3ccc64-f916-41ae-b0cb-7fd45ef210a2","test_ended_at":"2025-07-20T23:49:56.757394","automate_session_name":"Test-11","test_session_name":"stepdefinitions.DynamicDataHandle-DynamicWebPage","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","test_location":"src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java","test_hooks_started":{},"test_file_path":"src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java","test_result":"failed","test_hooks_finished":{},"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"DynamicWebPage","logs":[]}
+2025-07-21T06:49:56.765Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '5f3ccc64-f916-41ae-b0cb-7fd45ef210a2',
+    name: 'DynamicWebPage',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.DynamicDataHandle.DynamicWebPage() throws java.lang.InterruptedException'
+    },
+    identifier: 'DynamicWebPage',
+    scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+    scopes: [ 'Smoke', 'stepdefinitions.DynamicDataHandle' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 15,
+    started_at: '2025-07-21T06:49:56.742Z',
+    finished_at: '2025-07-21T06:49:56.757Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-1' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.779Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '161534d9-5edf-4c93-b9e3-fb87d4985191',
+    name: 'switchWind',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.SwitchWindows.switchWind() throws java.lang.InterruptedException'
+    },
+    identifier: 'switchWind',
+    scope: 'Smoke.stepdefinitions.SwitchWindows',
+    scopes: [ 'Smoke', 'stepdefinitions.SwitchWindows' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-21T06:49:56.776Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-2' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.780Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'a7f32052-e60a-420d-ad7e-92f0017844bd',
+    name: 'switchWind',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.SwitchWindows.switchWind() throws java.lang.InterruptedException'
+    },
+    identifier: 'switchWind',
+    scope: 'Smoke.stepdefinitions.SwitchWindows',
+    scopes: [ 'Smoke', 'stepdefinitions.SwitchWindows' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-21T06:49:56.776Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-1' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.782Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '2029dd6c-10c8-4ed2-bad2-812a78e86414',
+    name: 'switchWind',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.SwitchWindows.switchWind() throws java.lang.InterruptedException'
+    },
+    identifier: 'switchWind',
+    scope: 'Smoke.stepdefinitions.SwitchWindows',
+    scopes: [ 'Smoke', 'stepdefinitions.SwitchWindows' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-21T06:49:56.777Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.789Z CLI warn [observability:java:testng]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  TestRunFinished: event={"test_failure_type":"UnhandledError","test_rerun_name":"Test-0","test_result_at":"2025-07-20T23:49:56.785208","test_scope":"Smoke.stepdefinitions.SwitchWindows","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-07-20T23:49:56.777784","platform_index":0,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java)","\tat stepdefinitions.SwitchWindows.switchWind(SwitchWindows.java:26)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)","\tat org.testng.TestRunner.run(TestRunner.java:616)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1583)"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Smoke","stepdefinitions.SwitchWindows"],"test_code":"public void stepdefinitions.SwitchWindows.switchWind() throws java.lang.InterruptedException","test_id":"Test-0@0","test_uuid":"2029dd6c-10c8-4ed2-bad2-812a78e86414","test_ended_at":"2025-07-20T23:49:56.785600","automate_session_name":"Test-00","test_session_name":"stepdefinitions.SwitchWindows-switchWind","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","test_location":"src/test/java/Project001/MavenProjectExample/SwitchWindows.java","test_hooks_started":{},"test_file_path":"src/test/java/Project001/MavenProjectExample/SwitchWindows.java","test_result":"failed","test_hooks_finished":{},"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"switchWind","logs":[]}
+2025-07-21T06:49:56.790Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '2029dd6c-10c8-4ed2-bad2-812a78e86414',
+    name: 'switchWind',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.SwitchWindows.switchWind() throws java.lang.InterruptedException'
+    },
+    identifier: 'switchWind',
+    scope: 'Smoke.stepdefinitions.SwitchWindows',
+    scopes: [ 'Smoke', 'stepdefinitions.SwitchWindows' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 8,
+    started_at: '2025-07-21T06:49:56.777Z',
+    finished_at: '2025-07-21T06:49:56.785Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.791Z CLI warn [observability:java:testng]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  TestRunFinished: event={"test_failure_type":"UnhandledError","test_rerun_name":"Test-1","test_result_at":"2025-07-20T23:49:56.784957","test_scope":"Smoke.stepdefinitions.SwitchWindows","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-07-20T23:49:56.776402","platform_index":1,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java)","\tat stepdefinitions.SwitchWindows.switchWind(SwitchWindows.java:26)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)","\tat org.testng.TestRunner.run(TestRunner.java:616)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1583)"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Smoke","stepdefinitions.SwitchWindows"],"test_code":"public void stepdefinitions.SwitchWindows.switchWind() throws java.lang.InterruptedException","test_id":"Test-1@1","test_uuid":"a7f32052-e60a-420d-ad7e-92f0017844bd","test_ended_at":"2025-07-20T23:49:56.785341","automate_session_name":"Test-11","test_session_name":"stepdefinitions.SwitchWindows-switchWind","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","test_location":"src/test/java/Project001/MavenProjectExample/SwitchWindows.java","test_hooks_started":{},"test_file_path":"src/test/java/Project001/MavenProjectExample/SwitchWindows.java","test_result":"failed","test_hooks_finished":{},"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"switchWind","logs":[]}
+2025-07-21T06:49:56.792Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'a7f32052-e60a-420d-ad7e-92f0017844bd',
+    name: 'switchWind',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.SwitchWindows.switchWind() throws java.lang.InterruptedException'
+    },
+    identifier: 'switchWind',
+    scope: 'Smoke.stepdefinitions.SwitchWindows',
+    scopes: [ 'Smoke', 'stepdefinitions.SwitchWindows' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 9,
+    started_at: '2025-07-21T06:49:56.776Z',
+    finished_at: '2025-07-21T06:49:56.785Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-1' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:56.796Z CLI warn [observability:java:testng]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  TestRunFinished: event={"test_failure_type":"UnhandledError","test_rerun_name":"Test-2","test_result_at":"2025-07-20T23:49:56.786848","test_scope":"Smoke.stepdefinitions.SwitchWindows","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-07-20T23:49:56.776522","platform_index":2,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java)","\tat stepdefinitions.SwitchWindows.switchWind(SwitchWindows.java:26)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)","\tat org.testng.TestRunner.run(TestRunner.java:616)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1583)"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Smoke","stepdefinitions.SwitchWindows"],"test_code":"public void stepdefinitions.SwitchWindows.switchWind() throws java.lang.InterruptedException","test_id":"Test-2@2","test_uuid":"161534d9-5edf-4c93-b9e3-fb87d4985191","test_ended_at":"2025-07-20T23:49:56.787270","automate_session_name":"Test-22","test_session_name":"stepdefinitions.SwitchWindows-switchWind","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"com.browserstack.v2.instance.TrackedInstance.getDriver()\" because the return value of \"com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()\" is null","test_location":"src/test/java/Project001/MavenProjectExample/SwitchWindows.java","test_hooks_started":{},"test_file_path":"src/test/java/Project001/MavenProjectExample/SwitchWindows.java","test_result":"failed","test_hooks_finished":{},"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"switchWind","logs":[]}
+2025-07-21T06:49:56.796Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '161534d9-5edf-4c93-b9e3-fb87d4985191',
+    name: 'switchWind',
+    body: {
+      lang: 'java',
+      code: 'public void stepdefinitions.SwitchWindows.switchWind() throws java.lang.InterruptedException'
+    },
+    identifier: 'switchWind',
+    scope: 'Smoke.stepdefinitions.SwitchWindows',
+    scopes: [ 'Smoke', 'stepdefinitions.SwitchWindows' ],
+    file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    vc_filepath: '',
+    location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 11,
+    started_at: '2025-07-21T06:49:56.776Z',
+    finished_at: '2025-07-21T06:49:56.787Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'Test-2' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:57.105Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_SUITE',
+    framework: 'TestNG',
+    uuid: 'a0b763ae-a6e4-4e5f-91ba-75b4ad1081a2',
+    name: 'tearDownBrowser',
+    result: 'pending',
+    test_run_id: '161534d9-5edf-4c93-b9e3-fb87d4985191',
+    body: { lang: 'java', code: null },
+    scope: 'Smoke.stepdefinitions.SwitchWindows',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Smoke', 'stepdefinitions.SwitchWindows' ],
+    file_name: 'MavenProjectDemo/src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    vc_filepath: '',
+    location: 'MavenProjectDemo/src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    started_at: '2025-07-21T06:49:57.101Z'
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:57.118Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-21T06:49:57.109Z',
+      uuid: 'a0b763ae-a6e4-4e5f-91ba-75b4ad1081a2',
+      kind: 'TEST_LOG',
+      message: '"--- Closing browser connection ---"',
+      level: 'INFO',
+      test_run_uuid: 'a0b763ae-a6e4-4e5f-91ba-75b4ad1081a2'
+    }
+  ]
+} to 3778:0
+2025-07-21T06:49:57.151Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '17a63840-98ee-46a7-8dea-3f454cc13e19',
+      name: 'dragAndDrop',
+      body: [Object],
+      identifier: 'dragAndDrop',
+      scope: 'Smoke.stepdefinitions.MouseOperations',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-21T06:49:56.671Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '59770e78-ab09-45e8-a376-f49ecc8c7e19',
+      name: 'dragAndDrop',
+      body: [Object],
+      identifier: 'dragAndDrop',
+      scope: 'Smoke.stepdefinitions.MouseOperations',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-21T06:49:56.671Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'd012e202-b62c-422e-ac76-6012c96efd88',
+      name: 'dragAndDrop',
+      body: [Object],
+      identifier: 'dragAndDrop',
+      scope: 'Smoke.stepdefinitions.MouseOperations',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-21T06:49:56.671Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'd012e202-b62c-422e-ac76-6012c96efd88',
+      name: 'dragAndDrop',
+      body: [Object],
+      identifier: 'dragAndDrop',
+      scope: 'Smoke.stepdefinitions.MouseOperations',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 25,
+      started_at: '2025-07-21T06:49:56.671Z',
+      finished_at: '2025-07-21T06:49:56.696Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '59770e78-ab09-45e8-a376-f49ecc8c7e19',
+      name: 'dragAndDrop',
+      body: [Object],
+      identifier: 'dragAndDrop',
+      scope: 'Smoke.stepdefinitions.MouseOperations',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 25,
+      started_at: '2025-07-21T06:49:56.671Z',
+      finished_at: '2025-07-21T06:49:56.696Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '17a63840-98ee-46a7-8dea-3f454cc13e19',
+      name: 'dragAndDrop',
+      body: [Object],
+      identifier: 'dragAndDrop',
+      scope: 'Smoke.stepdefinitions.MouseOperations',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 25,
+      started_at: '2025-07-21T06:49:56.671Z',
+      finished_at: '2025-07-21T06:49:56.696Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '3abf9150-4edc-473f-a102-511ea7a4108c',
+      name: 'DynamicWebPage',
+      body: [Object],
+      identifier: 'DynamicWebPage',
+      scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-21T06:49:56.742Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '5f3ccc64-f916-41ae-b0cb-7fd45ef210a2',
+      name: 'DynamicWebPage',
+      body: [Object],
+      identifier: 'DynamicWebPage',
+      scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-21T06:49:56.742Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '03656008-ea1d-41c3-b81e-5aae32a19ee7',
+      name: 'DynamicWebPage',
+      body: [Object],
+      identifier: 'DynamicWebPage',
+      scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-21T06:49:56.742Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '03656008-ea1d-41c3-b81e-5aae32a19ee7',
+      name: 'DynamicWebPage',
+      body: [Object],
+      identifier: 'DynamicWebPage',
+      scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 15,
+      started_at: '2025-07-21T06:49:56.742Z',
+      finished_at: '2025-07-21T06:49:56.757Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '3abf9150-4edc-473f-a102-511ea7a4108c',
+      name: 'DynamicWebPage',
+      body: [Object],
+      identifier: 'DynamicWebPage',
+      scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 15,
+      started_at: '2025-07-21T06:49:56.742Z',
+      finished_at: '2025-07-21T06:49:56.757Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '5f3ccc64-f916-41ae-b0cb-7fd45ef210a2',
+      name: 'DynamicWebPage',
+      body: [Object],
+      identifier: 'DynamicWebPage',
+      scope: 'Smoke.stepdefinitions.DynamicDataHandle',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/DynamicDataHandle.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 15,
+      started_at: '2025-07-21T06:49:56.742Z',
+      finished_at: '2025-07-21T06:49:56.757Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '161534d9-5edf-4c93-b9e3-fb87d4985191',
+      name: 'switchWind',
+      body: [Object],
+      identifier: 'switchWind',
+      scope: 'Smoke.stepdefinitions.SwitchWindows',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-21T06:49:56.776Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'a7f32052-e60a-420d-ad7e-92f0017844bd',
+      name: 'switchWind',
+      body: [Object],
+      identifier: 'switchWind',
+      scope: 'Smoke.stepdefinitions.SwitchWindows',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-21T06:49:56.776Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '2029dd6c-10c8-4ed2-bad2-812a78e86414',
+      name: 'switchWind',
+      body: [Object],
+      identifier: 'switchWind',
+      scope: 'Smoke.stepdefinitions.SwitchWindows',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-21T06:49:56.777Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '2029dd6c-10c8-4ed2-bad2-812a78e86414',
+      name: 'switchWind',
+      body: [Object],
+      identifier: 'switchWind',
+      scope: 'Smoke.stepdefinitions.SwitchWindows',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 8,
+      started_at: '2025-07-21T06:49:56.777Z',
+      finished_at: '2025-07-21T06:49:56.785Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'a7f32052-e60a-420d-ad7e-92f0017844bd',
+      name: 'switchWind',
+      body: [Object],
+      identifier: 'switchWind',
+      scope: 'Smoke.stepdefinitions.SwitchWindows',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 9,
+      started_at: '2025-07-21T06:49:56.776Z',
+      finished_at: '2025-07-21T06:49:56.785Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '161534d9-5edf-4c93-b9e3-fb87d4985191',
+      name: 'switchWind',
+      body: [Object],
+      identifier: 'switchWind',
+      scope: 'Smoke.stepdefinitions.SwitchWindows',
+      scopes: [Array],
+      file_name: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      vc_filepath: '',
+      location: 'src/test/java/Project001/MavenProjectExample/SwitchWindows.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 11,
+      started_at: '2025-07-21T06:49:56.776Z',
+      finished_at: '2025-07-21T06:49:56.787Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.TrackedInstance.getDriver()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_SUITE',
+      framework: 'TestNG',
+      uuid: 'a0b763ae-a6e4-4e5f-91ba-75b4ad1081a2',
+      name: 'tearDownBrowser',
+      result: 'pending',
+      test_run_id: '161534d9-5edf-4c93-b9e3-fb87d4985191',
+      body: [Object],
+      scope: 'Smoke.stepdefinitions.SwitchWindows',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'MavenProjectDemo/src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      vc_filepath: '',
+      location: 'MavenProjectDemo/src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      started_at: '2025-07-21T06:49:57.101Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 3778:0
+2025-07-21T06:49:57.153Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-21T06:49:58.031Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_SUITE',
+    framework: 'TestNG',
+    uuid: 'a0b763ae-a6e4-4e5f-91ba-75b4ad1081a2',
+    name: 'tearDownBrowser',
+    result: 'passed',
+    test_run_id: '161534d9-5edf-4c93-b9e3-fb87d4985191',
+    body: { lang: 'java', code: null },
+    scope: 'Smoke.stepdefinitions.SwitchWindows',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Smoke', 'stepdefinitions.SwitchWindows' ],
+    file_name: 'MavenProjectDemo/src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    vc_filepath: '',
+    location: 'MavenProjectDemo/src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+    started_at: '2025-07-21T06:49:57.101Z',
+    finished_at: '2025-07-21T06:49:58.028Z'
+  },
+  logs: []
+} to 3778:0
+2025-07-21T06:49:59.149Z CLI info [testhub:request-queue-handler]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_SUITE',
+      framework: 'TestNG',
+      uuid: 'a0b763ae-a6e4-4e5f-91ba-75b4ad1081a2',
+      name: 'tearDownBrowser',
+      result: 'passed',
+      test_run_id: '161534d9-5edf-4c93-b9e3-fb87d4985191',
+      body: [Object],
+      scope: 'Smoke.stepdefinitions.SwitchWindows',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'MavenProjectDemo/src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      vc_filepath: '',
+      location: 'MavenProjectDemo/src/test/java/Project001/MavenProjectExample/MouseOperations.java',
+      started_at: '2025-07-21T06:49:57.101Z',
+      finished_at: '2025-07-21T06:49:58.028Z'
+    },
+    logs: []
+  }
+] to 3778:0
+2025-07-21T06:49:59.150Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-21T06:49:59.455Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-21T06:49:59.773Z CLI info [testhub:module]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  stopBuild: m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg request={"finished_at":"2025-07-21T06:49:58.145Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-21T06:49:59.774Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-21T06:49:59.776Z CLI info [observability:module]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Visit https://observability.browserstack.com/builds/m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg to view build report, insights, and many more debugging information all at one place!
+2025-07-21T06:50:02.343Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-21T06:50:02.666Z CLI info  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-21T06:50:03.154Z CLI info [main]  [firdovsisgandaro1]  [m9vkmt19ou0mwo9dkaq6u9jf4awzzpehdhzsyntg]  [c52bcc20-be36-42f9-9b7c-611f439780d4]  Received graceful signal termination, performing cleanup

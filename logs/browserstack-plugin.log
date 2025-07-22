@@ -1,0 +1,118 @@
+23:48:03.968 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+23:48:03.991 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.5, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=VnrqBwTUcc91QYyiii7r, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=firdovsisgandaro1, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.10]
+23:48:48.167 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:48:48.167 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:48:48.168 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+23:48:48.168 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:48:48.169 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:48:48.169 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+23:48:53.510 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:48:53.510 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:48:53.511 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+23:48:53.512 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:48:53.512 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:48:53.512 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+23:49:03.215 [Worker-7: Launching Executing clean in _Users_firdovsi_eclipse-workspace_MavenProjectDemo] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:49:09.414 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:49:09.414 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:49:09.415 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+23:49:09.415 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:49:09.415 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:49:09.416 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+23:49:10.888 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:49:10.888 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:49:10.888 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+23:49:10.889 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:49:10.889 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:49:10.889 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+23:49:15.469 [Worker-14: Launching Executing install in _Users_firdovsi_eclipse-workspace_MavenProjectDemo] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:49:15.845 [Worker-14: Launching Executing install in _Users_firdovsi_eclipse-workspace_MavenProjectDemo] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:52:56.054 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:52:56.054 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:56.055 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+23:52:56.055 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:52:56.055 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:56.055 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+23:53:02.203 [Worker-1: Launching Executing clean in _Users_firdovsi_eclipse-workspace_MavenProjectDemo] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:53:07.545 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:53:07.545 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:53:07.545 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+23:53:07.546 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:53:07.546 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:53:07.546 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+23:53:12.179 [Worker-15: Launching Executing install in _Users_firdovsi_eclipse-workspace_MavenProjectDemo] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:54:54.438 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:54:54.438 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:54:54.439 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+23:54:54.439 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:54:54.439 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:54:54.439 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+23:55:00.391 [Worker-7: Launching Executing clean in _Users_firdovsi_eclipse-workspace_MavenProjectDemo] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:55:06.249 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:55:06.249 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:55:06.249 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+23:55:06.250 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:55:06.250 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:55:06.250 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+23:55:11.867 [Worker-3: Launching Executing install in _Users_firdovsi_eclipse-workspace_MavenProjectDemo] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:59:27.977 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:59:27.977 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:59:27.978 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+23:59:27.978 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:59:27.978 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:59:27.978 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+23:59:31.708 [Worker-7: Launching Executing test in _Users_firdovsi_eclipse-workspace_MavenProjectDemo] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:01:39.479 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:01:39.479 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:01:39.480 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:01:39.480 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:01:39.480 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:01:39.480 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:01:45.809 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:01:45.810 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:01:45.810 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:01:45.811 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:01:45.811 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:01:45.812 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:02:30.055 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:02:30.055 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:02:30.056 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:02:30.056 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:02:30.056 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:02:30.056 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:02:45.323 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:02:45.323 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:02:45.324 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:02:45.324 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:02:45.324 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:02:45.325 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:02:55.540 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:02:55.540 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:02:55.541 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:02:55.541 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:02:55.541 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:02:55.542 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:03:17.950 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:03:17.950 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:03:17.951 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:03:17.951 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:03:17.951 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:03:17.952 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:03:38.310 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:03:38.310 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:03:38.310 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:03:38.310 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:03:38.310 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:03:38.311 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:04:13.004 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:04:13.004 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:04:13.005 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:04:13.005 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:04:13.005 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:04:13.006 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
+00:04:14.263 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:04:14.263 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:04:14.263 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/MavenProjectDemo
+00:04:14.263 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:04:14.263 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:04:14.264 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/MavenProjectDemo
